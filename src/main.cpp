@@ -20,6 +20,19 @@
 #include <ESP_Mail_Client.h>
 #include "config.h" 
 
+/* config.h contents:
+#define WIFI_SSID "B********x"
+#define WIFI_PASSWORD "F*************3"
+
+#define SMTP_HOST "smtp.gmail.com"
+#define SMTP_PORT 465
+
+#define AUTHOR_EMAIL "b******.***32@gmail.com"
+#define AUTHOR_PASSWORD "K**********"
+
+#define RECIPIENT_EMAIL "b********@gmail.com"
+*/
+
 
 /* The SMTP Session object used for Email sending */
 SMTPSession smtp;
